@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewDoor"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorRed"
+            android:text="@string/stav_vrat">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewOnOff"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/colorRed"
+            android:text="@string/off"
+            android:textAlignment="center">
+
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewBeforeGarrage"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/stav_pred_garazi">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textViewGarrage"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/stav_v_garazi">
+
+    </TextView>
+    <TextView
+        android:id="@+id/textViewLengthInGarrage"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/stav_v_garazi">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnGarrage"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:layout_gravity="center|bottom"
+            android:text="@string/openGarrage">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>

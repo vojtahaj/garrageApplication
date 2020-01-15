@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GarrageApplication</string>
+    <string name="openGarrage">Otevři/zavři garáž</string>
+    <string name="bt_connecting_title">Připojuji se...</string>
+    <string name="bt_connecting_msg">spojuji garáž</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="stav_vrat">stav vrat</string>
+    <string name="stav_v_garazi">Stav v garáži</string>
+    <string name="open">Vrata otevřená</string>
+    <string name="close">Vrata zavřená</string>
+    <string name="middle">Vrata v pohybu</string>
+    <string name="stav_pred_garazi">Stav pred Garazi</string>
+    <string name="bgFree">Volno před garáží</string>
+    <string name="barrier">Překážka</string>
+</resources>
